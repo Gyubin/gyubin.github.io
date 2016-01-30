@@ -1,21 +1,19 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Gyubin's learning
+email: geubin0414@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  1. 오늘보다 조금 더 발전한 내일이 되자.<br>
+  2. 중요한 것은 포기하지 않는 것.<br>
+  &nbsp; &nbsp; 더딘 것을 염려하지 말고, 멈출 것을 염려하자.<br>
+  3. 공부 슬럼프는 공부로 극복한다.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://gyubin.github.io/" # the base hostname & protocol for your site
+twitter_username: geubin0414
+github_username:  gyubin
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+
+#permalink
+permalink: pretty

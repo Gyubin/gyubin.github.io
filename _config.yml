@@ -1,19 +1,34 @@
-title: Gyubin's learning
-email: geubin0414@gmail.com
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Your awesome title
+email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  1. 오늘보다 조금 더 발전한 내일이 되자.<br>
-  2. 중요한 것은 포기하지 않는 것.<br>
-  &nbsp; &nbsp; 더딘 것을 염려하지 말고, 멈출 것을 염려하자.<br>
-  3. 공부 슬럼프는 공부로 극복한다.
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gyubin.github.io/" # the base hostname & protocol for your site
-twitter_username: geubin0414
-github_username:  gyubin
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
-
-#permalink
-permalink: pretty
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

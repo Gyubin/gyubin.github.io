@@ -5,16 +5,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ page.subheading }}">
-  <meta name="author" content="Gyubin Son">
 
-  <meta property="og:type" content="website">
+  <title>{{ page.title }} - Gyubin's devlog</title>
   <meta property="og:title" content="{{ page.title }} - Gyubin's devlog">
-  <meta property="og:url" content="{{ page.url }}">
+  <meta name="description" content="{{ page.subheading }}">
   <meta property="og:description" content="{{ page.subheading }}">
+  <link rel="canonical" href="https://gyubin.github.io{{page.url}}">
+  <meta property="og:url" content="https://gyubin.github.io{{page.url}}">
+  <meta property="og:site_name" content="Gyubin's devlog">
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="{{ page.date }}">
+  <meta name="author" content="Gyubin Son">
+  <meta property="og:author" content="Gyubin Son">
   <meta property="og:image" content="{{ page.thumbnail_img}}">
-
-  <title>{{ page.title }}</title>
 
   <!-- Bootstrap Core CSS -->
   <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

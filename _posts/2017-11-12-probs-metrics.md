@@ -89,7 +89,7 @@ $$
 
 ## 2. ROC curve, AUC
 
-![roc1](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Roccurves.png/440px-Roccurves.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Roccurves.png/440px-Roccurves.png" style="max-width:100%;"/>
 
 - ROC curve(Reciever Operating Characteristic curve): X축이 FPR(or `1 - TNR`), Y축이 TPR(=recall) 인 그래프
 - 선을 이루는 각 포인트들은 threshold가 달라지면서 변하는 각 FPR, TPR 포인트들을 이은 것이다.
@@ -105,7 +105,7 @@ $$
     + TPR=1 : Positive(암환자) 중에서 예측이 맞은 비율인데 모두 맞췄다. 모두 Positive로 예측했으니. FN, TP 중에서 FN이 하나도 없고 TP가 전부.
     + FPR=1 : Negative(정상) 중에서 틀린 비율인데 모두 Positive로 판정해서 다 틀렸다. TN과 FP 중에서 TN이 하나도 없고 모두 FP다.
 
-![roc2](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/ROC_curves.svg/600px-ROC_curves.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/ROC_curves.svg/600px-ROC_curves.svg.png" style="max-width:100%;"/>
 
 - 위 그래프에서 2가지 확률분포는 데이터가 주어졌을 때 Negative(좌측), Positive(우측)일 확률 분포다.
 - 확률분포를 구분하는 세로 방향 직선은 cutoff를 나타낸다. 직선 기준으로 좌측을 Negative, 우측을 Positive로 **"판정"**하겠다는 의미

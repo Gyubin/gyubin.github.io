@@ -107,7 +107,7 @@ $$
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/ROC_curves.svg/600px-ROC_curves.svg.png" style="max-width:100%;"/>
 
-- 위 그래프에서 2가지 확률분포는 데이터가 주어졌을 때 Negative(좌측), Positive(우측)일 확률 분포다.
+- 위 그래프에서 2가지 확률분포는 데이터가 주어졌을 때 Negative(좌측), Positive(우측)의 확률 분포다.
 - 확률분포를 구분하는 세로 방향 직선은 cutoff를 나타낸다. 직선 기준으로 좌측을 Negative, 우측을 Positive로 **"판정"**하겠다는 의미
 - 그래서 위 색깔 구분처럼 TP, FP, FN, TN으로 구분할 수 있다.
 - 직선이 좌측 끝에 있는게 ROC curve에서 (1,1)을 나타내고, 우측 끝에 있으면 (0,0)을 나타낸다.
@@ -115,3 +115,5 @@ $$
     + 맨 왼쪽은 FN: Negative일 확률이 더 큰 범위에서, 상대적으로 작은 확률로 P라고 판단할 수 있는 부분이다. 하지만 cutoff 좌측이라서 N이라고 판단했고, 그래서 틀릴 확률이다.
     + 중간은 TP: 역시 Negative일 확률이 더 큰 범위에서, Positive라고 판정할 확률이고, cutoff 우측이라서 P라고 판정한 케이스다. 그래서 TP.
     + 오른쪽은 FP: Positive일 확률이 더 큰 범위에서, Negative라 판정할 확률을 나타내는 부분이고, cutoff 우측으로 Positive라 판단했기 때문에 틀렸다. FP.
+
+**Thanks to 전현우**

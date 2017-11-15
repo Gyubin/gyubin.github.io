@@ -117,4 +117,4 @@ $$
     + 중간은 TP: 역시 Negative일 확률이 더 큰 범위에서, Positive라고 판정할 확률이고, cutoff 우측이라서 P라고 판정한 케이스다. 그래서 TP.
     + 오른쪽은 FP: Positive일 확률이 더 큰 범위에서, Negative라 판정할 확률을 나타내는 부분이고, cutoff 우측으로 Positive라 판단했기 때문에 틀렸다. FP.
 
-**Thanks to 전현우**
+**Thanks to [전현우](https://github.com/hyun910219)**

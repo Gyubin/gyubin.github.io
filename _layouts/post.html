@@ -107,6 +107,10 @@
             {% if page.comments %}
               <div id="disqus_thread"></div>
               <script>
+                var disqus_config = function () {
+                  this.page.url = "https://gyubin.github.io/";
+                  this.page.identifier = "{{ page.title }}";
+                };
                 (function() { // DON'T EDIT BELOW THIS LINE
                 var d = document, s = d.createElement('script');
                 s.src = 'https://gyubin.disqus.com/embed.js';

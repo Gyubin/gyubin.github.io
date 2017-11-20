@@ -5,6 +5,7 @@ subheading: "정답을 잘 맞출 것인가, 실수를 줄일 것인가."
 thumbnail_img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/ROC_curves.svg/600px-ROC_curves.svg.png"
 date:   2017-11-12 16:00:00 -0900
 categories: stats
+comments: true
 ---
 Logistic regression에서 binary case 문제를 풀 때 단순히 accuracy만 측정해선 안된다. 만약 데이터가 class imbalance하다면 단순히 accuracy로만 학습시키면 잘못될 가능성이 있다.
 

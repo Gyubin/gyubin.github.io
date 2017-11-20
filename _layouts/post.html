@@ -108,7 +108,7 @@
               <div id="disqus_thread"></div>
               <script>
                 var disqus_config = function () {
-                  this.page.url = "https://gyubin.github.io/";
+                  this.page.url = "https://gyubin.github.io{{page.url}}";
                   this.page.identifier = "{{ page.title }}";
                 };
                 (function() { // DON'T EDIT BELOW THIS LINE
@@ -144,7 +144,7 @@
 
   <!-- Theme JavaScript -->
   <script src="/js/clean-blog.min.js"></script>
-
+  <script id="dsq-count-scr" src="//gyubin.disqus.com/count.js" async></script>
 </body>
 
 </html>

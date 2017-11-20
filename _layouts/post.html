@@ -108,8 +108,8 @@
               <div id="disqus_thread"></div>
               <script>
                 var disqus_config = function () {
-                  this.page.url = "https://gyubin.github.io{{page.url}}";
-                  this.page.identifier = "{{ page.title }}";
+                  this.page.url = "https://gyubin.github.io" + "{{ page.url }}";
+                  this.page.identifier = "{{ page.url }}";
                 };
                 (function() { // DON'T EDIT BELOW THIS LINE
                 var d = document, s = d.createElement('script');

@@ -2,6 +2,7 @@ site_name: qLog
 
 theme:
     name: 'material'
+    custom_dir: overrides
     favicon: favicon.png
     logo: favicon.png
     language: kr

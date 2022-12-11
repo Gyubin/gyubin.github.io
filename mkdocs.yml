@@ -4,6 +4,7 @@ theme:
     name: 'material'
     favicon: favicon.png
     logo: favicon.png
+    language: kr
     palette:
 
     # Light mode
@@ -23,6 +24,16 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/gyubin
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/gyubin/
+
+copyright: Copyright &copy; 2023 qLog
 
 # Extensions
 markdown_extensions:

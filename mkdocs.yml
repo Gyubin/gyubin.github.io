@@ -2,8 +2,8 @@ site_name: qLog
 
 theme:
     name: 'material'
-    favicon: images/favicon.png
-    logo: images/favicon.png
+    favicon: favicon.png
+    logo: favicon.png
     palette:
 
     # Light mode

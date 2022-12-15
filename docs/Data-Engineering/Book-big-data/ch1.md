@@ -5,7 +5,7 @@ categories:
   - data-engineering
 ---
 
-# Chater 1
+# Chater 1 빅데이터의 기초 지식
 
 딥러닝 모델은 많은 양의 데이터를 필요로 한다. Large model, Large dataset의 트렌드는 앞으로도 지속될 것이다. 그만큼 데이터를 효율적으로 축적하고 사용할 수 있는 시스템에 대한 이해가 중요하고 앞으로는 기본 소양이 되지 않을까 생각된다. [빅데이터를 지탱하는 기술](https://product.kyobobook.co.kr/detail/S000001916916) 책은 데이터 엔지니어링 분야에서 호평을 받고 있기에 선택했다.
 
